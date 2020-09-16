@@ -4,6 +4,7 @@
 *.class
 *.iml
 .idea
+*.properties
 target
 
 # Log file
