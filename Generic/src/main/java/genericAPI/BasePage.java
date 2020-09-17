@@ -1,6 +1,7 @@
 package genericAPI;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 import utils.Excel;
 
 public class BasePage {
@@ -9,7 +10,7 @@ public class BasePage {
     protected Excel excel;
 
     /**
-     * THIS IS THE CONSTRUCTOR TO INITIALIZE EXCEL READER/WRITER FUNCTIONALITY
+     * THIS IS THE CONSTRUCTOR TO INITIALIZE THE DRIVER & EXCEL READER/WRITER FUNCTIONALITY
      * @param driver
      * @author SamiSheikh
      */
