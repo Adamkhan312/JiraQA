@@ -14,7 +14,7 @@ public class SampleLoginPage extends BasePage {
 
     public SampleLoginPage(WebDriver driver){
         super(driver);
-        PageFactory.initElements(driver, SampleLoginPage.class);
+        PageFactory.initElements(driver, this);
     }
 
     public void sendKeysToLoginUsername (String keys) {
