@@ -1,7 +1,6 @@
 package genericAPI;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -53,6 +52,7 @@ public class BaseSetup {
 
         driver.manage().window().maximize();
         driver.get(prop.getProperty("url"));
+
 
         page = new BasePage(driver);
 
